@@ -17,7 +17,10 @@ server.listen(port, hostname, () => {
 
 
 function calculateNumberofPoints(data) {
-    let count =0;
+    let count = 0;
+    if (!data || !data.coords) {
+        return count;
+    }
     const coords = data.coords;
 
     const circle1Coords = [250, 150];
