@@ -1,2 +1,6 @@
 # points_inside
-Calculate how many points are inside image
+NodeJs application: Calculate how many points are inside image
+##
+ `dataset: coordinatesystem.json `
+ `solution: server.js `
+
